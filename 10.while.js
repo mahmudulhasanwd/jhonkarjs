@@ -20,3 +20,15 @@ while(indx< name.length) {
    console.log(name[indx]);
    indx++
 }
+
+// findout odd even number using while loop
+var i = 0;
+while(i<=30) { 
+   i++  
+   // console.log(i);
+   if (i%2 == 0) {
+      console.log(i + ' is jura shonkha');
+   } else {
+      console.log(i + ' is bijura shonkha');
+   }
+}
