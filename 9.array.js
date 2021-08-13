@@ -7,6 +7,7 @@
 // 7.add Element in the start of Array
 // 8. remove Element form the start of Array
 // 9.remove Element form the end of the Array
+// 10.slice an Array
 
 
 // 1.write array
@@ -43,12 +44,22 @@ console.log(age);
 // 8. remove Element form the start of Array
 var age = [10, 20, 30, 40, 50];
 age.shift();
-console.log(age.shift());
+console.log(age);
 
 // 9.remove Element form the end of the Array
 var age = [10, 20, 30, 40, 50];
 age.pop();
 console.log(age);
 
+// 10.slice an Array
+var cName = ["Mahmudul", "hasan", "babu", "shipa", "sinan"];
+var fterSlice = cName.slice(2);
+console.log(fterSlice);
+console.log(cName);
 
+// 10.slice with two 
+var two = ["html", "css", "javascript" , "react js"]
+var twoslice = two.slice(1,4);
+console.log(twoslice);
+console.log(two)
 
